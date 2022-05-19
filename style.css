@@ -6,10 +6,37 @@ li {
   cursor: grab;
 }
 
-#counter {
+.card button {
+  background-color: rgb(100, 100, 255);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin: 10px;
+  text-align: start;
+  display: block;
+  width: 90%;
+}
+
+.card .correct {
+  background-color: green;
+}
+
+.card .incorrect {
+  background-color: red;
+}
+
+.global-counter {
+  top: 0;
+}
+
+.quiz-counter {
+  top: 80px;
+}
+
+.counter {
   position: fixed;
   left: 0;
-  top: 0;
   padding: 1rem;
   margin: 1rem;
   color: white;
