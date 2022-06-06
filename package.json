@@ -4,8 +4,9 @@
   "description": "Starting code for First JavaScript ES6 lecture",
   "main": "index.js",
   "scripts": {
-    "build": "webpack -p --progress",
-    "start": "webpack-dev-server"
+    "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js",
+    "dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "https://github.com/lewagon/webpack-boilerplate",
   "author": "ssaunier",
@@ -25,6 +26,7 @@
   "dependencies": {
     "@hotwired/stimulus": "^3.0.1",
     "@hotwired/stimulus-webpack-helpers": "^1.0.1",
+    "express": "^4.18.1",
     "stimulus-use": "^0.50.0"
   }
 }
