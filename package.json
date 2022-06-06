@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Starting code for First JavaScript ES6 lecture",
   "main": "index.js",
+  "scripts": {
+    "build": "webpack -p --progress",
+    "start": "webpack-dev-server"
+  },
   "repository": "https://github.com/lewagon/webpack-boilerplate",
   "author": "ssaunier",
   "license": "MIT",
