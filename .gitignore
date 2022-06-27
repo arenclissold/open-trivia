@@ -5,3 +5,6 @@ package-lock.json
 yarn-error.log
 main.js
 main.js.map
+
+# Local Netlify folder
+.netlify
